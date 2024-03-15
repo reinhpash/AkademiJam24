@@ -1,2 +1,2 @@
-# AkademiJam24
+# AkademiJam2024
  
