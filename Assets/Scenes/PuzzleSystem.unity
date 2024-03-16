@@ -155,6 +155,7 @@ MonoBehaviour:
   gameTransform: {fileID: 905523550}
   piecePrefab: {fileID: 7592633708439552132, guid: c2b3e12af9aa44c40908a4c43b0fd6e9,
     type: 3}
+  shuffleDelay: 1
 --- !u!4 &22929011
 Transform:
   m_ObjectHideFlags: 0

@@ -12,6 +12,9 @@ public class SlidingPuzzleGameManager : MonoBehaviour
     private int size;
     private bool shuffling = false;
 
+    public float shuffleDelay = 1f;
+    bool isShuffleDone = false;
+    bool isDone = false;
     // Create the game setup with size x size pieces.
     private void CreateGamePieces(float gapThickness)
     {
@@ -57,7 +60,7 @@ public class SlidingPuzzleGameManager : MonoBehaviour
     void Start()
     {
         pieces = new List<Transform>();
-        size = 4;
+        size = 2;
         CreateGamePieces(0.01f);
     }
 
@@ -65,33 +68,55 @@ public class SlidingPuzzleGameManager : MonoBehaviour
     void Update()
     {
         // Check for completion.
-        if (!shuffling && CheckCompletion())
+        if (!shuffling)
         {
             shuffling = true;
-            StartCoroutine(WaitShuffle(0.5f));
+            StartCoroutine(WaitShuffle(shuffleDelay));
         }
 
-        // On click send out ray to see if we click a piece.
-        if (Input.GetMouseButtonDown(0))
+        if (!isShuffleDone)
+            return;
+
+        if (!CheckCompletion())
         {
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit)
+            // On click send out ray to see if we click a piece.
+            if (Input.GetMouseButtonDown(0))
             {
-                // Go through the list, the index tells us the position.
-                for (int i = 0; i < pieces.Count; i++)
+                RaycastHit hit;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+                if (Physics.Raycast(ray, out hit))
                 {
-                    if (pieces[i] == hit.transform)
+                    // Go through the list, the index tells us the position.
+                    for (int i = 0; i < pieces.Count; i++)
                     {
-                        // Check each direction to see if valid move.
-                        // We break out on success so we don't carry on and swap back again.
-                        if (SwapIfValid(i, -size, size)) { break; }
-                        if (SwapIfValid(i, +size, size)) { break; }
-                        if (SwapIfValid(i, -1, 0)) { break; }
-                        if (SwapIfValid(i, +1, size - 1)) { break; }
+                        if (pieces[i] == hit.transform)
+                        {
+                            // Check each direction to see if valid move.
+                            // We break out on success so we don't carry on and swap back again.
+                            if (SwapIfValid(i, -size, size)) { break; }
+                            if (SwapIfValid(i, +size, size)) { break; }
+                            if (SwapIfValid(i, -1, 0)) { break; }
+                            if (SwapIfValid(i, +1, size - 1)) { break; }
+                        }
                     }
                 }
             }
         }
+        else
+        {
+            if (!isDone)
+            {
+                Invoke("Done", 1.5f);
+                isDone = true;
+            }
+        }
+    }
+
+    private void Done()
+    {
+        Debug.Log("Puzzle Bitti");
+        this.gameObject.SetActive(false);
     }
 
     // colCheck is used to stop horizontal moves wrapping.
@@ -127,7 +152,6 @@ public class SlidingPuzzleGameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(duration);
         Shuffle();
-        shuffling = false;
     }
 
     // Brute force shuffling.
@@ -160,5 +184,7 @@ public class SlidingPuzzleGameManager : MonoBehaviour
                 count++;
             }
         }
+
+        isShuffleDone = true;
     }
 }
