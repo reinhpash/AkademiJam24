@@ -5,10 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - puzzleCard
-  tags:
-  - Fluid
   - Enemy
   - EXP
+  - Fluid
   layers:
   - Default
   - TransparentFX
@@ -23,8 +22,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - IgnorePlayer
+  - Player
   - EnemyProjectile
   - Ground
   - 

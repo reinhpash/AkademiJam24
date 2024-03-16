@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8803198000343412872}
   - component: {fileID: 7457395742137055055}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Gun 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 309907446539501495}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BulletLoc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,9 +98,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8803198000343412872}
     m_Modifications:
+    - target: {fileID: 100000, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
       propertyPath: m_Name
       value: PW_espressomachine
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
       propertyPath: m_LocalPosition.x

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3985549838441080578}
   - component: {fileID: 7258963566262163284}
   - component: {fileID: 3398040169019669527}
-  m_Layer: 3
+  m_Layer: 13
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 3451671946432478997}
   - component: {fileID: 4512302713650350742}
   - component: {fileID: 3980212327113457315}
-  m_Layer: 3
+  m_Layer: 13
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7516374623294154519}
   - component: {fileID: 8503426241351246351}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: CoffeeBean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,6 +263,10 @@ PrefabInstance:
     - target: {fileID: 1714831991546838, guid: 7989684eaf7d44a699019d7be7625a2d, type: 3}
       propertyPath: m_Name
       value: PW_cheesecake_lime
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714831991546838, guid: 7989684eaf7d44a699019d7be7625a2d, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4053672944190216, guid: 7989684eaf7d44a699019d7be7625a2d, type: 3}
       propertyPath: m_LocalScale.x
@@ -339,6 +343,10 @@ PrefabInstance:
     - target: {fileID: 1613991253391414, guid: bb5b37d8246d44e598c671792c3ac74a, type: 3}
       propertyPath: m_Name
       value: PW_cheesecake_chocolatte
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613991253391414, guid: bb5b37d8246d44e598c671792c3ac74a, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4276206438945464, guid: bb5b37d8246d44e598c671792c3ac74a, type: 3}
       propertyPath: m_LocalScale.x
