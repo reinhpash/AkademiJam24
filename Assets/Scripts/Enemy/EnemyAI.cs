@@ -8,10 +8,11 @@ public class EnemyAI : MonoBehaviour
 {
     public NavMeshAgent agent;
     Transform player;
-    private float tickRate = 1.5f;
+    public float tickRate = 1.5f;
     private float lastTick = 0;
     public EnemyStates currentState;
     public Transform attackObject;
+    public float attackDelay = 2f;
 
     private void Start()
     {
@@ -21,41 +22,50 @@ public class EnemyAI : MonoBehaviour
     }
     private void Update()
     {
-        if (lastTick >= tickRate)
+        if (player != null)
         {
-            if (agent.remainingDistance <=  agent.stoppingDistance+ .2f)
+            if (lastTick >= tickRate)
             {
-                currentState = EnemyStates.Attack;
+                if (agent.remainingDistance <= agent.stoppingDistance + .2f)
+                {
+                    currentState = EnemyStates.Attack;
+                }
+                else
+                {
+                    currentState = EnemyStates.Follow;
+                }
+
+                switch (currentState)
+                {
+                    case EnemyStates.Follow:
+                        agent.SetDestination(player.position);
+                        break;
+                    case EnemyStates.Attack:
+                        StartCoroutine(AttackRoutine());
+                        break;
+                    default:
+                        break;
+                }
             }
             else
             {
-                currentState = EnemyStates.Follow;
-            }
-
-            switch (currentState)
-            {
-                case EnemyStates.Follow:
-                    agent.SetDestination(player.position);
-                    break;
-                case EnemyStates.Attack:
-                    StartCoroutine(AttackRoutine());
-                    break;
-                default:
-                    break;
+                lastTick += Time.deltaTime;
             }
         }
-        else
-        {
-            lastTick += Time.deltaTime;
-        }
+        
     }
 
     IEnumerator AttackRoutine()
     {
         attackObject.gameObject.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        lastTick = 0;
+        yield return new WaitForSeconds(.2f);
         attackObject.gameObject.SetActive(false);
-        agent.SetDestination(player.position);
+        if(player != null)
+            agent.SetDestination(player.position);
+        else
+            StopCoroutine(AttackRoutine());
+        yield return new WaitForSeconds(attackDelay);
         StopCoroutine(AttackRoutine());
 
     }
