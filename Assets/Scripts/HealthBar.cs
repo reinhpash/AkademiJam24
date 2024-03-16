@@ -10,32 +10,42 @@ public class HealthBar : MonoBehaviour
     public float maxHealth = 100f;
     public float health;
     private float lerpSpeed = 0.05f;
-    
+    private Camera mainCamera;
+    public Transform lookatObj;
+
     // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
+        mainCamera = Camera.main;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (mainCamera != null)
+        {
+            lookatObj.LookAt(mainCamera.transform);
+        }
+
         if (healthSlider.value != health)
         {
             healthSlider.value = health;
         }
-        if (Input.GetKeyDown(KeyCode.Space)) 
-        {
-            takeDamage(10);
-        }
+
         if (healthSlider.value != easeHealthSlider.value)
         {
             easeHealthSlider.value = Mathf.Lerp(easeHealthSlider.value,health,lerpSpeed);
 
         }
     }
-    void takeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         health -= damage;
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
