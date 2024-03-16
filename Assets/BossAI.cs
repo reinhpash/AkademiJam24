@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class BossAI : MonoBehaviour
 {
@@ -125,6 +126,7 @@ public class BossAI : MonoBehaviour
     {
         Debug.Log("Death");
     }
+
 }
 
 [System.Serializable]
