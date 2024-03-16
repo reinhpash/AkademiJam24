@@ -5,9 +5,10 @@ using UnityEngine;
 public class EnemyProjectile : MonoBehaviour
 {
     public int damageAmount = 10;
+    bool canDoDamage = true;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && canDoDamage)
         {
             HealthBar healthBar;
             if (other.gameObject.TryGetComponent(out healthBar))
@@ -20,6 +21,7 @@ public class EnemyProjectile : MonoBehaviour
                 rb.useGravity = true;
                 rb.velocity = Vector3.zero;
             }
+            canDoDamage = false;
         }
     }
 
@@ -37,7 +39,8 @@ public class EnemyProjectile : MonoBehaviour
             {
                 boxCollider.isTrigger = true;
             }
-            Destroy(this.gameObject);
+
+            Destroy(this);
         }
     }
 
