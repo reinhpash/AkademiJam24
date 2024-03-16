@@ -382,6 +382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23d9cbffee1dd1a4ea5f6236f7877573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageAmount: 10
 --- !u!1 &5332340165632257364
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,8 +519,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 5066922553716313058}
+  tickRate: 1.5
   currentState: 0
   attackObject: {fileID: 1559553185289018763}
+  attackDelay: 2
 --- !u!114 &7997583883072094235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -534,7 +537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 5952338605753445317}
   easeHealthSlider: {fileID: 6745232176357018353}
-  maxHealth: 30
+  maxHealth: 100
   health: 100
   lookatObj: {fileID: 1277915814167051677}
 --- !u!1 &5763592261217583374

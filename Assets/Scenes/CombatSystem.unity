@@ -1985,7 +1985,7 @@ PrefabInstance:
     - target: {fileID: 5660546512957197536, guid: 5cc7c8ec2b050204090beaca5e6fb3d5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.42
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5660546512957197536, guid: 5cc7c8ec2b050204090beaca5e6fb3d5,
         type: 3}
@@ -2114,16 +2114,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 5332340165632257364, guid: 8b1593cdd93263f488bae6e1c1ec0ed3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7997583883072094235, guid: 8b1593cdd93263f488bae6e1c1ec0ed3,
-        type: 3}
-      propertyPath: maxHealth
-      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8443179425475770007, guid: 8b1593cdd93263f488bae6e1c1ec0ed3,
         type: 3}

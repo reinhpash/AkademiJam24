@@ -18,6 +18,9 @@ public class HealthBar : MonoBehaviour
     {
         health = maxHealth;
         mainCamera = Camera.main;
+
+        healthSlider.maxValue = maxHealth;
+        easeHealthSlider.maxValue = maxHealth;
     }
 
     // Update is called once per frame
