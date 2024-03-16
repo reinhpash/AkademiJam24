@@ -14,6 +14,7 @@ public class WeaponUIManager : MonoBehaviour
 
     public void ShowUI()
     {
+        Time.timeScale = 0f;
         for (int i = 0; i < slotCount; i++)
         {
             currentIndex = Random.Range(0, slots.Count);
@@ -40,6 +41,7 @@ public class WeaponUIManager : MonoBehaviour
 
     public void HideUI()
     {
+        Time.timeScale = 1f;
         for (int i = 0; i < m_CurrentSlots.Count; i++)
         {
             Destroy(m_CurrentSlots[i].gameObject);
