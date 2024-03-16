@@ -5,13 +5,15 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public int damageAmount = 10;
+    public bool isDestroyable = false;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
             other.gameObject.GetComponent<HealthBar>().TakeDamage(damageAmount);
-            Destroy(this.gameObject);
+            if(isDestroyable)
+                Destroy(this.gameObject);
         }
     }
 }
