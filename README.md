@@ -23,6 +23,8 @@ Oyunumuzda toplamda 3 level bulunmakta
 
 4 farklı silah içeren bir Kombat sistemi bulunmaktadır
 
+3 farklı durumu olan bir boss figt bulunmaktadır
+
 Isometric bir bakış açısına sahip kamera kullanılmıştır
 
 ## Ekran Görüntüleri
