@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    public int damageAmount = 10;
+    public bool isDestroyable = false;
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<TestHealth>().TakeDamage();
+            other.gameObject.GetComponent<HealthBar>().TakeDamage(damageAmount);
+            if(isDestroyable)
+                Destroy(this.gameObject);
         }
     }
 }
