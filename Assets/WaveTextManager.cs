@@ -14,7 +14,7 @@ public class WaveTextManager : MonoBehaviour
             Time.timeScale = .5f;
             Invoke("SetTimeNormal", 1f);
             waveText.gameObject.SetActive(false);
-            waveText.SetText("Boss'un yeri tespit edildi\n" + "Portaldan Geç");
+            waveText.SetText("Boss ortaya çýktý");
             waveText.gameObject.SetActive(true);
         }
         else

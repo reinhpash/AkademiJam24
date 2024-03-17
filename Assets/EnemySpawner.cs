@@ -30,14 +30,15 @@ public class EnemySpawner : MonoBehaviour
         Instance = this;
     }
 
-    private void Start()
-    {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-    }
 
     private void Update()
     {
         spawnTime -= Time.deltaTime;
+        if (player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        }
         if (spawnTime < 0)
         {
             SpawnEnemy();
@@ -50,7 +51,8 @@ public class EnemySpawner : MonoBehaviour
     {
         if (currentWave >= 3)
         {
-            Debug.Log("Waves finished");
+            Debug.Log("Waves finished \n" +
+                "Boss Appear");
 
             Vector3 portalSpawnPosition = player.position + player.forward * 3;
             Instantiate(portal, portalSpawnPosition, Quaternion.identity);

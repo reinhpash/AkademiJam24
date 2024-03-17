@@ -14,10 +14,6 @@ public class PlayerController : MonoBehaviour
     bool isMoving = false;
     public bool canMove = true;
 
-    private void Start()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
 
     private void Update()
     {

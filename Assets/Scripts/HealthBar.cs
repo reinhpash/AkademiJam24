@@ -15,6 +15,8 @@ public class HealthBar : MonoBehaviour
     public bool isEnemy = false;
     public GameObject expObject;
     public GameObject takeHitObj;
+    public GameObject failCanvas;
+
 
     // Start is called before the first frame update
     void Start()
@@ -57,8 +59,12 @@ public class HealthBar : MonoBehaviour
             {
                 EnemySpawner.Instance.EnemyDestroyed();
                 Instantiate(expObject, this.transform.position, Quaternion.identity);
+                this.gameObject.SetActive(false);
             }
-            this.gameObject.SetActive(false);
+            else
+            {
+                failCanvas.SetActive(true);
+            }
       }
     }
 }
