@@ -13,10 +13,14 @@ public class EnemyAI : MonoBehaviour
     public EnemyStates currentState;
     public Transform attackObject;
     public float attackDelay = 2f;
+    public GameObject attackEffect;
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+
+        if (player == null)
+            return;
         agent.SetDestination(player.position);
 
     }
@@ -57,6 +61,10 @@ public class EnemyAI : MonoBehaviour
 
     IEnumerator AttackRoutine()
     {
+        var o = Instantiate(attackEffect, this.transform);
+        o.transform.parent = null;
+        o.transform.forward = this.transform.forward;
+        Destroy(o, .2f);
         attackObject.gameObject.SetActive(true);
         lastTick = 0;
         yield return new WaitForSeconds(.2f);

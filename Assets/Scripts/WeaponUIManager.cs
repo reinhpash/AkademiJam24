@@ -31,9 +31,17 @@ public class WeaponUIManager : MonoBehaviour
             }
 
             lastIndex = currentIndex;
+            try
+            {
+                var obj = Instantiate(slots[currentIndex], slotParent);
+                m_CurrentSlots.Add(obj);
+            }
+            catch
+            {
+                var obj = Instantiate(slots[0], slotParent);
+                m_CurrentSlots.Add(obj);
+            }
 
-            var obj = Instantiate(slots[currentIndex], slotParent);
-            m_CurrentSlots.Add(obj);
         }
 
         slotParent.gameObject.SetActive(true);

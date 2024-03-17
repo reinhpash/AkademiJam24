@@ -12,6 +12,7 @@ public class PlayerLevelHandler : MonoBehaviour
     public UnityEvent OnLevelUp;
     public float expAmountPer = 20f;
 
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("EXP"))
