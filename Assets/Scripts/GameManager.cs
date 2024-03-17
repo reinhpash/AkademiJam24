@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     public List<Button> _btns = new List<Button>();
 
-    public GameObject GameWinPopUp, GameLosePopUp; 
+    public GameObject GameWinPopUp, GameLosePopUp, CardPuzzleGame; 
 
     private bool firstGuess, secondGuess;
 
@@ -34,19 +34,22 @@ public class GameManager : MonoBehaviour
 
     private string firstGuessPuzzle, secondGuessPuzzle;
 
+    public PuzzleLevelManager _puzzleLevelManagerScript;
 
     private void Awake()
     {
         cards = Resources.LoadAll<Sprite>("MatchPuzzleElements/");
+        
     }
     void Start()
     {
+        _puzzleLevelManagerScript = GameObject.Find("PuzzleLevelManager").GetComponent<PuzzleLevelManager>();
         getButtons();
         AddListeners();
         AddCardList();
         Shuffle(cardList);
         gameGuesses = cardList.Count / 2;
-        Guesses = 2;
+        Guesses = 10;
     }
 
     public void tryAgainBtnClick()
@@ -61,7 +64,7 @@ public class GameManager : MonoBehaviour
             _btns[i].image.sprite = bgimage;
             _btns[i].interactable = true;
         }
-        Guesses = 2;
+        Guesses = 10;
         countCorrectGuesses = 0;
 
     }
@@ -204,6 +207,7 @@ public class GameManager : MonoBehaviour
     public void closeBtnClick()
     {
         GameWinPopUp.SetActive(false);
+        _puzzleLevelManagerScript.CardGameWin();
        
     }
 }
