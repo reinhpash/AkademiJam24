@@ -14,6 +14,7 @@ public class HealthBar : MonoBehaviour
     public Transform lookatObj;
     public bool isEnemy = false;
     public GameObject expObject;
+    public GameObject takeHitObj;
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +48,8 @@ public class HealthBar : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
+        var a = Instantiate(takeHitObj, this.transform.position, Quaternion.identity);
+        Destroy(a, .2f);
 
         if (health <= 0)
         {
@@ -54,7 +57,7 @@ public class HealthBar : MonoBehaviour
             {
                 EnemySpawner.Instance.EnemyDestroyed();
                 Instantiate(expObject, this.transform.position, Quaternion.identity);
-            }  
+            }
             this.gameObject.SetActive(false);
       }
     }

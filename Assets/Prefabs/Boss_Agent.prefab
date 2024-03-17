@@ -413,7 +413,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1
-  m_Speed: 3.5
+  m_Speed: 1.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff5cba98e13e904a98e07555e5c560b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 0}
+  agent: {fileID: 1534051879760413641}
   healthBar: {fileID: 6788432484704380644}
   attackPositions:
   - {fileID: 8826046376376712272}
@@ -459,6 +459,7 @@ MonoBehaviour:
   - 8
   - 10
   - 12
+  animator: {fileID: 3337470021274609120}
 --- !u!114 &6788432484704380644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,9 +474,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 3880347204430365242}
   easeHealthSlider: {fileID: 3359651550225827852}
-  maxHealth: 500
+  maxHealth: 5000
   health: 0
   lookatObj: {fileID: 752729903486750135}
+  isEnemy: 0
+  expObject: {fileID: 0}
+  takeHitObj: {fileID: 4535006216103734310, guid: 98c4704d0fd7211449bcf5c451095a60,
+    type: 3}
 --- !u!65 &8503584155917794714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -935,6 +940,12 @@ PrefabInstance:
 --- !u!4 &915764993446027282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3236077565070834902, guid: d4639df2f8f0a784c8069b0faa06bd92,
+    type: 3}
+  m_PrefabInstance: {fileID: 2332204963347750084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &3337470021274609120 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1012389914922744100, guid: d4639df2f8f0a784c8069b0faa06bd92,
     type: 3}
   m_PrefabInstance: {fileID: 2332204963347750084}
   m_PrefabAsset: {fileID: 0}

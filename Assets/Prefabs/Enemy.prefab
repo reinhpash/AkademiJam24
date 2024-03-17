@@ -545,6 +545,8 @@ MonoBehaviour:
   isEnemy: 1
   expObject: {fileID: 4795776873020164545, guid: 2cbe260ac1cd45a4e85de87e091656e0,
     type: 3}
+  takeHitObj: {fileID: 1758473627833946668, guid: 9b21333b068a5084ba09535839bee3c8,
+    type: 3}
 --- !u!1 &5763592261217583374
 GameObject:
   m_ObjectHideFlags: 0
