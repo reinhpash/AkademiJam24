@@ -12,6 +12,8 @@ public class HealthBar : MonoBehaviour
     private float lerpSpeed = 0.05f;
     private Camera mainCamera;
     public Transform lookatObj;
+    public bool isEnemy = false;
+    public GameObject expObject;
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +50,12 @@ public class HealthBar : MonoBehaviour
 
         if (health <= 0)
         {
-            Destroy(gameObject);
-        }
+            if (isEnemy)
+            {
+                EnemySpawner.Instance.EnemyDestroyed();
+                Instantiate(expObject, this.transform.position, Quaternion.identity);
+            }  
+            this.gameObject.SetActive(false);
+      }
     }
 }
