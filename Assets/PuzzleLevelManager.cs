@@ -14,6 +14,14 @@ public class PuzzleLevelManager : MonoBehaviour
     [SerializeField]
     private Sprite coffeeClaimed;
 
+    [SerializeField]
+    private Sprite milkClaimed;
+
+    public Image slidingImage;
+
+    public bool isMilkClaimed;
+    public bool isCoffeBeanClaimed;
+
     public bool isWin =false;
     public void Start()
     {
@@ -60,6 +68,13 @@ public class PuzzleLevelManager : MonoBehaviour
         {
             Image coffeeImage = coffee.GetComponentInChildren<Image>();
             coffeeImage.sprite = coffeeClaimed;
+            isCoffeBeanClaimed = true;
         }
+    }
+
+    public void SlidingWin()
+    {
+        slidingImage.sprite = milkClaimed;
+        isMilkClaimed = true;
     }
 }

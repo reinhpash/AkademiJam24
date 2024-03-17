@@ -5,19 +5,41 @@ using UnityEngine;
 
 public class Collision : MonoBehaviour
 {
-    private PuzzleLevelManager _PuzzleLevelManagerScript;
-    private void Start()
-    {
-        _PuzzleLevelManagerScript = GameObject.Find("PuzzleLevelManager").GetComponent<PuzzleLevelManager>();
-    }
+    public PuzzleLevelManager _PuzzleLevelManagerScript;
+    public SlidingPuzzleGameManager _SlidingPuzzleGameManager;
+
+    public GameObject MainCam;
+    public GameObject SlidingCam;
+
+    public bool isSliding = false;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (_PuzzleLevelManagerScript.isWin == true)
-                return;
-            _PuzzleLevelManagerScript.CardGameStart();
+            if (isSliding)
+            {
+                if (_SlidingPuzzleGameManager.isDone == true)
+                    return;
+                _SlidingPuzzleGameManager.gameObject.SetActive(true);
+                SlidingCam.SetActive(true);
+                MainCam.SetActive(false);
+            }
+            else
+            {
+                if (_PuzzleLevelManagerScript.isWin == true)
+                    return;
+                _PuzzleLevelManagerScript.CardGameStart();
+
+            }
+
         }
+    }
+
+    public void OnSlidingDone()
+    {
+        SlidingCam.SetActive(false);
+        MainCam.SetActive(true);
     }
 
 }

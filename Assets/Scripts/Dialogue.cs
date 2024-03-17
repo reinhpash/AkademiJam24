@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System.Linq;
-
+using Cinemachine;
 
 public class Dialogue : MonoBehaviour
 {
@@ -13,10 +13,15 @@ public class Dialogue : MonoBehaviour
     public string[] names;
     public string[] lines;
     public float textSpeed = 0.05f;
+
+    public GameObject Portal;
    
 
     private int index;
     private bool dialogueStarted = false;
+
+    public CinemachineVirtualCamera BaristaCam;
+    public CinemachineVirtualCamera MainCam;
 
     void Start()
     {
@@ -81,6 +86,10 @@ public class Dialogue : MonoBehaviour
     {
         dialogueCanvas.enabled = false;
         dialogueStarted = false;
+        GameObject.FindObjectOfType<PlayerController>().canMove = true;
+        MainCam.gameObject.SetActive(true);
+        BaristaCam.gameObject.SetActive(false);
+        Portal.SetActive(true);
         Debug.Log("Diyalog Bitti");
     }
 }

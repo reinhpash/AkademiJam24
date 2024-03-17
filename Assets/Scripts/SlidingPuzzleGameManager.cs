@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SlidingPuzzleGameManager : MonoBehaviour
 {
@@ -14,7 +16,9 @@ public class SlidingPuzzleGameManager : MonoBehaviour
 
     public float shuffleDelay = 1f;
     bool isShuffleDone = false;
-    bool isDone = false;
+    public bool isDone = false;
+    public UnityEvent OnDone;
+    public Camera slidingCam;
     // Create the game setup with size x size pieces.
     private void CreateGamePieces(float gapThickness)
     {
@@ -83,7 +87,7 @@ public class SlidingPuzzleGameManager : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 RaycastHit hit;
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                Ray ray = slidingCam.ScreenPointToRay(Input.mousePosition);
 
                 if (Physics.Raycast(ray, out hit))
                 {
@@ -108,6 +112,7 @@ public class SlidingPuzzleGameManager : MonoBehaviour
             if (!isDone)
             {
                 Invoke("Done", 1.5f);
+                OnDone?.Invoke();
                 isDone = true;
             }
         }

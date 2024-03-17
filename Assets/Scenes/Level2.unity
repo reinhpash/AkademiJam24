@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.114580505, g: 0.33012125, b: 0.71203196, a: 1}
+  m_IndirectSpecularColor: {r: 0.114580475, g: 0.3301212, b: 0.71203196, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_croissant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -209,6 +213,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_Name
       value: PW_croissant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_LocalScale.x
@@ -285,6 +293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cupcake_redvelvet
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 765692888465b48fface3b65045b34ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 765692888465b48fface3b65045b34ea, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -353,6 +365,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -429,6 +445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -503,6 +523,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -587,7 +611,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &112729751
 Transform:
@@ -635,6 +659,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -713,7 +741,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &159462157
 Transform:
@@ -744,6 +772,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -850,6 +882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -930,6 +966,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_Name
       value: PW_plate01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1014,7 +1054,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &269421693
 Transform:
@@ -1051,6 +1091,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_Name
       value: PW_plate01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1121,6 +1165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1189,6 +1237,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -1265,6 +1317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1334,6 +1390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1402,6 +1462,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -1492,7 +1556,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &373254483
 Transform:
@@ -1524,6 +1588,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 55a67f111b1a44ab1af5b998dfe73716, type: 3}
       propertyPath: m_Name
       value: PW_macaronbox
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 55a67f111b1a44ab1af5b998dfe73716, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 55a67f111b1a44ab1af5b998dfe73716, type: 3}
       propertyPath: m_LocalScale.x
@@ -1590,9 +1658,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373254483}
     m_Modifications:
+    - target: {fileID: 100000, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_Name
       value: PW_toast_cheese (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_LocalScale.x
@@ -1811,6 +1899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cupcake_chocolattechips
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 09d02e86acc0f4e85ba8435b3f878728, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 09d02e86acc0f4e85ba8435b3f878728, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -1880,6 +1972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1948,6 +2044,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -2020,7 +2120,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &493267557
 Transform:
@@ -2062,6 +2162,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6e6c8be41f3d8436f9127c39d1c92ace, type: 3}
       propertyPath: m_Name
       value: PW_macaron_tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6e6c8be41f3d8436f9127c39d1c92ace, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e6c8be41f3d8436f9127c39d1c92ace, type: 3}
       propertyPath: m_LocalScale.x
@@ -2128,9 +2232,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373254483}
     m_Modifications:
+    - target: {fileID: 100000, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_Name
       value: PW_toast_cheese
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_LocalScale.x
@@ -2207,6 +2331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_plate01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -2272,9 +2400,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 581331301}
     m_Modifications:
+    - target: {fileID: 100000, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_Name
       value: PW_toast_cheese
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_LocalScale.x
@@ -2351,6 +2499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_doughnut_blackNwhite
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dc74e53f7f0b5495b9e760dd4803accb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dc74e53f7f0b5495b9e760dd4803accb, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -2426,6 +2578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_macaron_tower (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6e6c8be41f3d8436f9127c39d1c92ace, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e6c8be41f3d8436f9127c39d1c92ace, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -2494,6 +2650,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 1f00f2bf39c2347bc844a6db1cdc4f74, type: 3}
       propertyPath: m_Name
       value: PW_cheesecake_chocolatte
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1f00f2bf39c2347bc844a6db1cdc4f74, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1f00f2bf39c2347bc844a6db1cdc4f74, type: 3}
       propertyPath: m_LocalScale.x
@@ -2566,7 +2726,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &581331301
 Transform:
@@ -2598,6 +2758,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -2667,6 +2831,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -2786,9 +2954,9 @@ Mesh:
       format: 0
       dimension: 2
     - stream: 0
-      offset: 0
+      offset: 48
       format: 0
-      dimension: 0
+      dimension: 2
     - stream: 0
       offset: 0
       format: 0
@@ -2821,8 +2989,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 1152
-    _typelessdata: 38b043c2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf38b04342b0ba18bfc84f1842b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c2b0ba18bf38b043c255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf38b0434255741641c84f184255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c255741641c84f1842b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bfc84f1842b0ba18bf7c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023fb0ba18bfc84f184255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d04055741641c84f1842557416417c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023f55741641c84f1842b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f1842b0ba18bf38b043c2b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c2b0ba18bfc84f1842557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f18425574164138b043c2557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c25574164138b043c2b0ba18bf7c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bfb0ba18bf38b043c2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf38b043c2557416417c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bf5574164138b043c255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c05574164138b043c255741641f051d040000000000000803f000000000000803f0000000000000000000080bf38b043c2f051d040c84f184255741641f051d040000000000000803f000000000000803f0000000000000000000080bfc84f1842f051d04038b043c2557416417c8f023f000000000000803f000000000000803f0000000000000000000080bf38b043c27c8f023fc84f1842557416417c8f023f000000000000803f000000000000803f0000000000000000000080bfc84f18427c8f023f38b043c2b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bf38b043427c8f023fc84f1842b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bfc84f18c27c8f023f38b043c2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf38b04342f051d040c84f1842b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfc84f18c2f051d040
+    m_DataSize: 1344
+    _typelessdata: 38b043c2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf38b04342b0ba18bf6fd8a33c0bd7a33cc84f1842b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c2b0ba18bf1b467b3f0bd7a33c38b043c255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf38b04342557416410bd7a33c79a7053ec84f184255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c25574164110467b3f79a7053ec84f1842b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bf1fd7a33c901d053fc84f1842b0ba18bf7c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023fb0ba18bf0bd7a33c5947e83ec84f184255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d0405574164177a7053e901d053fc84f1842557416417c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023f5574164174a7053e5947e83ec84f1842b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f1842b0ba18bf6fd8a33c5a221a3e38b043c2b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c2b0ba18bf1b467b3f5a221a3ec84f1842557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f1842557416410bd7a33c79a7853e38b043c2557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c25574164110467b3f79a7853e38b043c2b0ba18bf7c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bfb0ba18bf74a7053e483c0a3f38b043c2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf77a7053e2b361b3f38b043c2557416417c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bf557416410bd7a33c483c0a3f38b043c255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0557416411fd7a33c2b361b3f38b043c255741641f051d040000000000000803f000000000000803f0000000000000000000080bf38b043c2f051d04011467b3fb0d8b13ec84f184255741641f051d040000000000000803f000000000000803f0000000000000000000080bfc84f1842f051d0400bd7a33cb0d8b13e38b043c2557416417c8f023f000000000000803f000000000000803f0000000000000000000080bf38b043c27c8f023f1a467b3fe9e48f3ec84f1842557416417c8f023f000000000000803f000000000000803f0000000000000000000080bfc84f18427c8f023f23d8a33ce9e48f3e38b043c2b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bf38b043427c8f023f23d8a33c2116bc3ec84f1842b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bfc84f18c27c8f023f1a467b3f2116bc3e38b043c2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf38b04342f051d0400bd7a33ce809de3ec84f1842b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfc84f18c2f051d04011467b3fe809de3e
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -2883,7 +3051,7 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
+  m_MeshMetrics[1]: 8186.6357
   m_MeshOptimizationFlags: 1
   m_StreamData:
     serializedVersion: 2
@@ -2901,6 +3069,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -2970,6 +3142,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -3052,6 +3228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -3121,6 +3301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_macaron_tower (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6e6c8be41f3d8436f9127c39d1c92ace, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e6c8be41f3d8436f9127c39d1c92ace, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -3189,6 +3373,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_Name
       value: PW_croissant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_LocalScale.x
@@ -3261,9 +3449,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 112729751}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0460bc4a18a1e4183bbcb2af6a316112, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0460bc4a18a1e4183bbcb2af6a316112, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 0460bc4a18a1e4183bbcb2af6a316112, type: 3}
       propertyPath: m_Name
       value: PW_display03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0460bc4a18a1e4183bbcb2af6a316112, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 0460bc4a18a1e4183bbcb2af6a316112, type: 3}
       propertyPath: m_LocalScale.x
@@ -3340,6 +3540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -3414,6 +3618,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -3496,6 +3704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_croissant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -3573,9 +3785,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 159462157}
     m_Modifications:
+    - target: {fileID: 100000, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
       propertyPath: m_Name
       value: PW_espressomachine (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
       propertyPath: m_LocalScale.x
@@ -3654,7 +3878,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &699642402
 Transform:
@@ -3702,6 +3926,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -3774,7 +4002,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &711773118
 Transform:
@@ -3819,7 +4047,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &719770115
 Transform:
@@ -3838,6 +4066,7 @@ Transform:
   - {fileID: 978605266}
   - {fileID: 1612540179}
   - {fileID: 2139402998}
+  - {fileID: 1147363958}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &719942098 stripped
@@ -3857,6 +4086,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -3933,6 +4166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_plate01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -4004,7 +4241,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &759912518
 Transform:
@@ -4035,9 +4272,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2003818518}
     m_Modifications:
+    - target: {fileID: 100000, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
       propertyPath: m_Name
       value: PW_microwave
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4128,6 +4389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_croissant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -4199,9 +4464,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2041169667}
     m_Modifications:
+    - target: {fileID: 100000, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
       propertyPath: m_Name
       value: PW_orangejuice
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
       propertyPath: m_LocalScale.x
@@ -4321,9 +4602,9 @@ Mesh:
       format: 0
       dimension: 2
     - stream: 0
-      offset: 0
+      offset: 48
       format: 0
-      dimension: 0
+      dimension: 2
     - stream: 0
       offset: 0
       format: 0
@@ -4356,8 +4637,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 1152
-    _typelessdata: 36b03fc2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f42b0ba18bfca4f1442b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c2b0ba18bf36b03fc255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f4255741641ca4f144255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c255741641ca4f1442b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bfca4f1442b0ba18bf808f023f0000803f000000000000000000000000000000000000803f000080bf808f023fb0ba18bfca4f144255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d04055741641ca4f144255741641808f023f0000803f000000000000000000000000000000000000803f000080bf808f023f55741641ca4f1442b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f1442b0ba18bf36b03fc2b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc2b0ba18bfca4f144255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f14425574164136b03fc255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc25574164136b03fc2b0ba18bf808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bfb0ba18bf36b03fc2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf36b03fc255741641808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bf5574164136b03fc255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c05574164136b03fc255741641f051d040000000000000803f000000000000803f0000000000000000000080bf36b03fc2f051d040ca4f144255741641f051d040000000000000803f000000000000803f0000000000000000000080bfca4f1442f051d04036b03fc255741641808f023f000000000000803f000000000000803f0000000000000000000080bf36b03fc2808f023fca4f144255741641808f023f000000000000803f000000000000803f0000000000000000000080bfca4f1442808f023f36b03fc2b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bf36b03f42808f023fca4f1442b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bfca4f14c2808f023f36b03fc2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf36b03f42f051d040ca4f1442b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfca4f14c2f051d040
+    m_DataSize: 1344
+    _typelessdata: 36b03fc2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f42b0ba18bf72d8a33cc871483eca4f1442b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c2b0ba18bf1a467b3fc871483e36b03fc255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f42557416410bd7a33c0a249e3eca4f144255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c2557416410f467b3f0a249e3eca4f1442b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bf1fd7a33c0b241e3fca4f1442b0ba18bf808f023f0000803f000000000000000000000000000000000000803f000080bf808f023fb0ba18bf0bd7a33ce6c30c3fca4f144255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d040557416412c51083e0b241e3fca4f144255741641808f023f0000803f000000000000000000000000000000000000803f000080bf808f023f557416412951083ee6c30c3fca4f1442b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f1442b0ba18bf72d8a33c7b61a83e36b03fc2b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc2b0ba18bf1a467b3f7b61a83eca4f144255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f1442557416410bd7a33ca14ce23e36b03fc255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc2557416410f467b3fa14ce23e36b03fc2b0ba18bf808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bfb0ba18bf2951083e128aec3e36b03fc2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf2c51083e2ea5073f36b03fc255741641808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bf557416410bd7a33c128aec3e36b03fc255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0557416411fd7a33c2ea5073f36b03fc255741641f051d040000000000000803f000000000000803f0000000000000000000080bf36b03fc2f051d0401b467b3fe7f6b33dca4f144255741641f051d040000000000000803f000000000000803f0000000000000000000080bfca4f1442f051d04093d7a33ce7f6b33d36b03fc255741641808f023f000000000000803f000000000000803f0000000000000000000080bf36b03fc2808f023f17467b3f0bd7a33cca4f144255741641808f023f000000000000803f000000000000803f0000000000000000000080bfca4f1442808f023f0bd7a33c0bd7a33c36b03fc2b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bf36b03f42808f023f0bd7a33ca9ecdc3dca4f1442b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bfca4f14c2808f023f17467b3fa9ecdc3d36b03fc2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf36b03f42f051d04093d7a33ce7f6333eca4f1442b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfca4f14c2f051d0401b467b3fe7f6333e
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -4418,7 +4699,7 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
+  m_MeshMetrics[1]: 7814.5664
   m_MeshOptimizationFlags: 1
   m_StreamData:
     serializedVersion: 2
@@ -4442,6 +4723,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -4511,6 +4796,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -4749,6 +5038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cheesecake_strawberry
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7f923fda2c9af40558bca23c92ee1e1f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7f923fda2c9af40558bca23c92ee1e1f, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -4818,6 +5111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_plate01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -4886,6 +5183,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -4964,7 +5265,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &867638701
 Transform:
@@ -4994,6 +5295,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
       propertyPath: m_Name
       value: PW_mochapot
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
       propertyPath: m_LocalScale.x
@@ -5113,9 +5418,9 @@ Mesh:
       format: 0
       dimension: 2
     - stream: 0
-      offset: 0
+      offset: 48
       format: 0
-      dimension: 0
+      dimension: 2
     - stream: 0
       offset: 0
       format: 0
@@ -5148,8 +5453,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 1152
-    _typelessdata: 36b03fc2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f42b0ba18bfca4f1442b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c2b0ba18bf36b03fc255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f4255741641ca4f144255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c255741641ca4f1442b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bfca4f1442b0ba18bf808f023f0000803f000000000000000000000000000000000000803f000080bf808f023fb0ba18bfca4f144255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d04055741641ca4f144255741641808f023f0000803f000000000000000000000000000000000000803f000080bf808f023f55741641ca4f1442b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f1442b0ba18bf36b03fc2b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc2b0ba18bfca4f144255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f14425574164136b03fc255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc25574164136b03fc2b0ba18bf808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bfb0ba18bf36b03fc2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf36b03fc255741641808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bf5574164136b03fc255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c05574164136b03fc255741641f051d040000000000000803f000000000000803f0000000000000000000080bf36b03fc2f051d040ca4f144255741641f051d040000000000000803f000000000000803f0000000000000000000080bfca4f1442f051d04036b03fc255741641808f023f000000000000803f000000000000803f0000000000000000000080bf36b03fc2808f023fca4f144255741641808f023f000000000000803f000000000000803f0000000000000000000080bfca4f1442808f023f36b03fc2b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bf36b03f42808f023fca4f1442b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bfca4f14c2808f023f36b03fc2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf36b03f42f051d040ca4f1442b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfca4f14c2f051d040
+    m_DataSize: 1344
+    _typelessdata: 36b03fc2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f42b0ba18bf72d8a33cc871483eca4f1442b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c2b0ba18bf1a467b3fc871483e36b03fc255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f42557416410bd7a33c0a249e3eca4f144255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c2557416410f467b3f0a249e3eca4f1442b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bf1fd7a33c0b241e3fca4f1442b0ba18bf808f023f0000803f000000000000000000000000000000000000803f000080bf808f023fb0ba18bf0bd7a33ce6c30c3fca4f144255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d040557416412c51083e0b241e3fca4f144255741641808f023f0000803f000000000000000000000000000000000000803f000080bf808f023f557416412951083ee6c30c3fca4f1442b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f1442b0ba18bf72d8a33c7b61a83e36b03fc2b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc2b0ba18bf1a467b3f7b61a83eca4f144255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f1442557416410bd7a33ca14ce23e36b03fc255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc2557416410f467b3fa14ce23e36b03fc2b0ba18bf808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bfb0ba18bf2951083e128aec3e36b03fc2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf2c51083e2ea5073f36b03fc255741641808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bf557416410bd7a33c128aec3e36b03fc255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0557416411fd7a33c2ea5073f36b03fc255741641f051d040000000000000803f000000000000803f0000000000000000000080bf36b03fc2f051d0401b467b3fe7f6b33dca4f144255741641f051d040000000000000803f000000000000803f0000000000000000000080bfca4f1442f051d04093d7a33ce7f6b33d36b03fc255741641808f023f000000000000803f000000000000803f0000000000000000000080bf36b03fc2808f023f17467b3f0bd7a33cca4f144255741641808f023f000000000000803f000000000000803f0000000000000000000080bfca4f1442808f023f0bd7a33c0bd7a33c36b03fc2b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bf36b03f42808f023f0bd7a33ca9ecdc3dca4f1442b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bfca4f14c2808f023f17467b3fa9ecdc3d36b03fc2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf36b03f42f051d04093d7a33ce7f6333eca4f1442b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfca4f14c2f051d0401b467b3fe7f6333e
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -5210,7 +5515,7 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
+  m_MeshMetrics[1]: 7814.5664
   m_MeshOptimizationFlags: 1
   m_StreamData:
     serializedVersion: 2
@@ -5231,9 +5536,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 581331301}
     m_Modifications:
+    - target: {fileID: 100000, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_Name
       value: PW_toast_cheese (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_LocalScale.x
@@ -5303,6 +5628,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3c1b6649db1be4bd2bf453b42c1a35ed, type: 3}
       propertyPath: m_Name
       value: PW_cupcake_oreo
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3c1b6649db1be4bd2bf453b42c1a35ed, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3c1b6649db1be4bd2bf453b42c1a35ed, type: 3}
       propertyPath: m_LocalScale.x
@@ -5385,6 +5714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -5442,24 +5775,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
---- !u!1 &970715725 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5608255246277647832, guid: dc2cd4d7c805a0449b2784ca1683cef2,
-    type: 3}
-  m_PrefabInstance: {fileID: 2892597173303629802}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &970715731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970715725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9752c90b828a0c6419c0566d84c89db5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &971943390 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 0460bc4a18a1e4183bbcb2af6a316112,
@@ -5480,7 +5795,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &972929916
 Transform:
@@ -5516,7 +5831,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &972990097
 Transform:
@@ -5556,7 +5871,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &978605261
 MeshCollider:
@@ -5579,7 +5894,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1473769962}
+  m_Mesh: {fileID: 798398129}
 --- !u!33 &978605262
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -5908,6 +6223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -5983,6 +6302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -6054,7 +6377,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1025767213
 Transform:
@@ -6090,6 +6413,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dc74e53f7f0b5495b9e760dd4803accb, type: 3}
       propertyPath: m_Name
       value: PW_doughnut_blackNwhite
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dc74e53f7f0b5495b9e760dd4803accb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dc74e53f7f0b5495b9e760dd4803accb, type: 3}
       propertyPath: m_LocalScale.x
@@ -6165,6 +6492,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_Name
       value: PW_plate01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -6243,9 +6574,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1878213514}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5dc54757a2d9e4639ac7264cf85a6ab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5dc54757a2d9e4639ac7264cf85a6ab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 5dc54757a2d9e4639ac7264cf85a6ab0, type: 3}
       propertyPath: m_Name
       value: PW_display04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5dc54757a2d9e4639ac7264cf85a6ab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 5dc54757a2d9e4639ac7264cf85a6ab0, type: 3}
       propertyPath: m_LocalScale.x
@@ -6312,9 +6655,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373254483}
     m_Modifications:
+    - target: {fileID: 100000, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_Name
       value: PW_toast_cheese (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_LocalScale.x
@@ -6397,6 +6760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_mochapot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -6462,9 +6829,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2041169667}
     m_Modifications:
+    - target: {fileID: 100000, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
       propertyPath: m_Name
       value: PW_orangejuice (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
       propertyPath: m_LocalScale.x
@@ -6543,7 +6926,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1147363958
 Transform:
@@ -6553,8 +6936,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147363957}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.26, y: -0.5856791, z: -23.8}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.67209, y: -0.68227774, z: -17.817905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6580,7 +6963,7 @@ Transform:
   - {fileID: 1025767213}
   - {fileID: 1878213514}
   - {fileID: 2041169667}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 719770115}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1148615100 stripped
 Transform:
@@ -6599,6 +6982,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -6671,7 +7058,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1180325313
 Transform:
@@ -6706,9 +7093,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2041169667}
     m_Modifications:
+    - target: {fileID: 100000, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
       propertyPath: m_Name
       value: PW_lemonade (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -6778,6 +7181,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -6853,6 +7260,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -7003,6 +7414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -7072,6 +7487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_plate01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -7137,9 +7556,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 159462157}
     m_Modifications:
+    - target: {fileID: 100000, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
       propertyPath: m_Name
       value: PW_espressomachine
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
       propertyPath: m_LocalScale.x
@@ -7209,6 +7640,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
       propertyPath: m_Name
       value: PW_mochapot (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
       propertyPath: m_LocalScale.x
@@ -7305,9 +7740,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2003818518}
     m_Modifications:
+    - target: {fileID: 100000, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
       propertyPath: m_Name
       value: PW_microwave (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7398,6 +7857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_croissant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -7473,6 +7936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_macaronbox (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 55a67f111b1a44ab1af5b998dfe73716, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 55a67f111b1a44ab1af5b998dfe73716, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -7538,9 +8005,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1623537040}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0460bc4a18a1e4183bbcb2af6a316112, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0460bc4a18a1e4183bbcb2af6a316112, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 0460bc4a18a1e4183bbcb2af6a316112, type: 3}
       propertyPath: m_Name
       value: PW_display03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0460bc4a18a1e4183bbcb2af6a316112, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 0460bc4a18a1e4183bbcb2af6a316112, type: 3}
       propertyPath: m_LocalScale.x
@@ -7622,6 +8101,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -7710,6 +8193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -7785,6 +8272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_croissant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -7853,6 +8344,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -7935,6 +8430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_croissant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -7992,171 +8491,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
---- !u!43 &1473769962
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-313548(Clone)
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: -5.422081, y: 4.4034014, z: 3.5100021}
-      m_Extent: {x: 42.5, y: 5, z: 3}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1152
-    _typelessdata: 36b03fc2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f42b0ba18bfca4f1442b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c2b0ba18bf36b03fc255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f4255741641ca4f144255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c255741641ca4f1442b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bfca4f1442b0ba18bf808f023f0000803f000000000000000000000000000000000000803f000080bf808f023fb0ba18bfca4f144255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d04055741641ca4f144255741641808f023f0000803f000000000000000000000000000000000000803f000080bf808f023f55741641ca4f1442b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f1442b0ba18bf36b03fc2b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc2b0ba18bfca4f144255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f14425574164136b03fc255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc25574164136b03fc2b0ba18bf808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bfb0ba18bf36b03fc2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf36b03fc255741641808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bf5574164136b03fc255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c05574164136b03fc255741641f051d040000000000000803f000000000000803f0000000000000000000080bf36b03fc2f051d040ca4f144255741641f051d040000000000000803f000000000000803f0000000000000000000080bfca4f1442f051d04036b03fc255741641808f023f000000000000803f000000000000803f0000000000000000000080bf36b03fc2808f023fca4f144255741641808f023f000000000000803f000000000000803f0000000000000000000080bfca4f1442808f023f36b03fc2b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bf36b03f42808f023fca4f1442b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bfca4f14c2808f023f36b03fc2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf36b03f42f051d040ca4f1442b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfca4f14c2f051d040
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -5.422081, y: 4.4034014, z: 3.5100021}
-    m_Extent: {x: 42.5, y: 5, z: 3}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!4 &1497872573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602,
@@ -8174,6 +8508,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -8250,7 +8588,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1506715284
 MonoBehaviour:
@@ -8281,7 +8619,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 19a28a3c36fc4e44eae00efa93199b6c, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: dfbdc24443b00a2468408368a052fefc, type: 2}
   m_BuildHeightMesh: 0
 --- !u!64 &1506715285
 MeshCollider:
@@ -8325,7 +8663,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3d40610f7733fdd459b80da9473bb482, type: 2}
+  - {fileID: 2100000, guid: c554ec92d6ed5a042ab46ac6ef04b1f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8381,6 +8719,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -8457,6 +8799,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -8522,9 +8868,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 159462157}
     m_Modifications:
+    - target: {fileID: 100000, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
       propertyPath: m_Name
       value: PW_espressomachine (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
       propertyPath: m_LocalScale.x
@@ -8594,6 +8952,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -8677,7 +9039,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &1552531229
 MeshCollider:
@@ -8700,7 +9062,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1670587937}
+  m_Mesh: {fileID: 872167299}
 --- !u!33 &1552531230
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -9029,6 +9391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -9097,6 +9463,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -9172,6 +9542,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_Name
       value: PW_plate01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -9250,7 +9624,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1595140699
 Transform:
@@ -9284,6 +9658,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_Name
       value: PW_plate01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -9361,7 +9739,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &1612540174
 MeshCollider:
@@ -9384,7 +9762,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2034506588}
+  m_Mesh: {fileID: 2039839762}
 --- !u!33 &1612540175
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -9727,7 +10105,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1623537040
 Transform:
@@ -9778,6 +10156,7 @@ MonoBehaviour:
   player: {fileID: 3284278359401369582}
   enemyPrefabs:
   - {fileID: 5332340165632257364, guid: 8b1593cdd93263f488bae6e1c1ec0ed3, type: 3}
+  - {fileID: 820756024528474049, guid: 875271a88d61fb846b86c9fa12bf67ac, type: 3}
   spawnRadius: 30
   spawnTimer: 1
   spawnEnemyCount: 0a0000000a0000000a000000
@@ -9824,6 +10203,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -9890,9 +10273,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2041169667}
     m_Modifications:
+    - target: {fileID: 100000, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
       propertyPath: m_Name
       value: PW_lemonade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -9951,171 +10350,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9f5ed3a8b3bd4799986201336a88d8c, type: 3}
---- !u!43 &1670587937
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-313548
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: -5.422081, y: 4.4034014, z: 3.5100021}
-      m_Extent: {x: 42.5, y: 5, z: 3}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1152
-    _typelessdata: 36b03fc2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f42b0ba18bfca4f1442b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c2b0ba18bf36b03fc255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf36b03f4255741641ca4f144255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfca4f14c255741641ca4f1442b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bfca4f1442b0ba18bf808f023f0000803f000000000000000000000000000000000000803f000080bf808f023fb0ba18bfca4f144255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d04055741641ca4f144255741641808f023f0000803f000000000000000000000000000000000000803f000080bf808f023f55741641ca4f1442b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f1442b0ba18bf36b03fc2b0ba18bf808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc2b0ba18bfca4f144255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bfca4f14425574164136b03fc255741641808f023f0000000000000000000080bf0000803f0000000000000000000080bf36b03fc25574164136b03fc2b0ba18bf808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bfb0ba18bf36b03fc2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf36b03fc255741641808f023f000080bf00000000000000000000000000000000000080bf000080bf808f02bf5574164136b03fc255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c05574164136b03fc255741641f051d040000000000000803f000000000000803f0000000000000000000080bf36b03fc2f051d040ca4f144255741641f051d040000000000000803f000000000000803f0000000000000000000080bfca4f1442f051d04036b03fc255741641808f023f000000000000803f000000000000803f0000000000000000000080bf36b03fc2808f023fca4f144255741641808f023f000000000000803f000000000000803f0000000000000000000080bfca4f1442808f023f36b03fc2b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bf36b03f42808f023fca4f1442b0ba18bf808f023f00000000000080bf00000000000080bf0000000000000000000080bfca4f14c2808f023f36b03fc2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf36b03f42f051d040ca4f1442b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfca4f14c2f051d040
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -5.422081, y: 4.4034014, z: 3.5100021}
-    m_Extent: {x: 42.5, y: 5, z: 3}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!4 &1678173009 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602,
@@ -10133,6 +10367,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 09d02e86acc0f4e85ba8435b3f878728, type: 3}
       propertyPath: m_Name
       value: PW_cupcake_chocolattechips
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 09d02e86acc0f4e85ba8435b3f878728, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 09d02e86acc0f4e85ba8435b3f878728, type: 3}
       propertyPath: m_LocalScale.x
@@ -10215,6 +10453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cheesecake_strawberry
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7f923fda2c9af40558bca23c92ee1e1f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7f923fda2c9af40558bca23c92ee1e1f, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -10289,6 +10531,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -10373,7 +10619,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1737420074
 Transform:
@@ -10421,6 +10667,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -10491,6 +10741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_plate01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -10556,9 +10810,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 581331301}
     m_Modifications:
+    - target: {fileID: 100000, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_Name
       value: PW_toast_cheese (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: e21bfea69265541d1903c3c13f943471, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e21bfea69265541d1903c3c13f943471, type: 3}
       propertyPath: m_LocalScale.x
@@ -10631,7 +10905,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1769813741
 Transform:
@@ -10662,6 +10936,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -10731,6 +11009,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_Name
       value: PW_plate01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -10802,10 +11084,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExpObject
       objectReference: {fileID: 0}
+    - target: {fileID: 4795776873020164545, guid: 2cbe260ac1cd45a4e85de87e091656e0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8172505293294715391, guid: 2cbe260ac1cd45a4e85de87e091656e0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.73
+      value: -5.36
       objectReference: {fileID: 0}
     - target: {fileID: 8172505293294715391, guid: 2cbe260ac1cd45a4e85de87e091656e0,
         type: 3}
@@ -10815,7 +11102,7 @@ PrefabInstance:
     - target: {fileID: 8172505293294715391, guid: 2cbe260ac1cd45a4e85de87e091656e0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.33
+      value: 1.58
       objectReference: {fileID: 0}
     - target: {fileID: 8172505293294715391, guid: 2cbe260ac1cd45a4e85de87e091656e0,
         type: 3}
@@ -10880,6 +11167,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_Name
       value: PW_plate01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11f590721e3924264bebcdf8ba152dd0, type: 3}
       propertyPath: m_LocalScale.x
@@ -10956,6 +11247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_croissant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -11031,6 +11326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -11099,6 +11398,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_Name
       value: PW_croissant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}
       propertyPath: m_LocalScale.x
@@ -11177,9 +11480,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1025767213}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5dc54757a2d9e4639ac7264cf85a6ab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5dc54757a2d9e4639ac7264cf85a6ab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 5dc54757a2d9e4639ac7264cf85a6ab0, type: 3}
       propertyPath: m_Name
       value: PW_display04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5dc54757a2d9e4639ac7264cf85a6ab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 5dc54757a2d9e4639ac7264cf85a6ab0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11249,6 +11564,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 765692888465b48fface3b65045b34ea, type: 3}
       propertyPath: m_Name
       value: PW_cupcake_redvelvet
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 765692888465b48fface3b65045b34ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 765692888465b48fface3b65045b34ea, type: 3}
       propertyPath: m_LocalScale.x
@@ -11327,7 +11646,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1878213514
 Transform:
@@ -11352,171 +11671,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1979910167}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &1898490626
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-313548(Clone)(Clone)(Clone)
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: -5.4220886, y: 4.4034014, z: 3.5100021}
-      m_Extent: {x: 43.5, y: 5, z: 3}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1152
-    _typelessdata: 38b043c2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf38b04342b0ba18bfc84f1842b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c2b0ba18bf38b043c255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf38b0434255741641c84f184255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c255741641c84f1842b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bfc84f1842b0ba18bf7c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023fb0ba18bfc84f184255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d04055741641c84f1842557416417c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023f55741641c84f1842b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f1842b0ba18bf38b043c2b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c2b0ba18bfc84f1842557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f18425574164138b043c2557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c25574164138b043c2b0ba18bf7c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bfb0ba18bf38b043c2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf38b043c2557416417c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bf5574164138b043c255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c05574164138b043c255741641f051d040000000000000803f000000000000803f0000000000000000000080bf38b043c2f051d040c84f184255741641f051d040000000000000803f000000000000803f0000000000000000000080bfc84f1842f051d04038b043c2557416417c8f023f000000000000803f000000000000803f0000000000000000000080bf38b043c27c8f023fc84f1842557416417c8f023f000000000000803f000000000000803f0000000000000000000080bfc84f18427c8f023f38b043c2b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bf38b043427c8f023fc84f1842b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bfc84f18c27c8f023f38b043c2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf38b04342f051d040c84f1842b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfc84f18c2f051d040
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -5.4220886, y: 4.4034014, z: 3.5100021}
-    m_Extent: {x: 43.5, y: 5, z: 3}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &1905004991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11528,6 +11682,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
       propertyPath: m_Name
       value: PW_mochapot (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
       propertyPath: m_LocalScale.x
@@ -11610,6 +11768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cookie (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -11687,7 +11849,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1932077959
 Transform:
@@ -11718,6 +11880,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -11793,6 +11959,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 1f00f2bf39c2347bc844a6db1cdc4f74, type: 3}
       propertyPath: m_Name
       value: PW_cheesecake_chocolatte
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1f00f2bf39c2347bc844a6db1cdc4f74, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1f00f2bf39c2347bc844a6db1cdc4f74, type: 3}
       propertyPath: m_LocalScale.x
@@ -11887,7 +12057,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 960, y: 540}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1986841605
 MonoBehaviour:
@@ -11928,14 +12098,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7433963, g: 0.7433963, b: 0.7433963, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a21532c71bafdda498b2040e6dad2391, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11967,7 +12137,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2003818518
 Transform:
@@ -11997,6 +12167,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -12061,171 +12235,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1747428680}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &2034506588
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-313548(Clone)(Clone)
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: -5.4220886, y: 4.4034014, z: 3.5100021}
-      m_Extent: {x: 43.5, y: 5, z: 3}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1152
-    _typelessdata: 38b043c2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf38b04342b0ba18bfc84f1842b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c2b0ba18bf38b043c255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf38b0434255741641c84f184255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c255741641c84f1842b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bfc84f1842b0ba18bf7c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023fb0ba18bfc84f184255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d04055741641c84f1842557416417c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023f55741641c84f1842b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f1842b0ba18bf38b043c2b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c2b0ba18bfc84f1842557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f18425574164138b043c2557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c25574164138b043c2b0ba18bf7c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bfb0ba18bf38b043c2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf38b043c2557416417c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bf5574164138b043c255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c05574164138b043c255741641f051d040000000000000803f000000000000803f0000000000000000000080bf38b043c2f051d040c84f184255741641f051d040000000000000803f000000000000803f0000000000000000000080bfc84f1842f051d04038b043c2557416417c8f023f000000000000803f000000000000803f0000000000000000000080bf38b043c27c8f023fc84f1842557416417c8f023f000000000000803f000000000000803f0000000000000000000080bfc84f18427c8f023f38b043c2b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bf38b043427c8f023fc84f1842b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bfc84f18c27c8f023f38b043c2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf38b04342f051d040c84f1842b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfc84f18c2f051d040
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -5.4220886, y: 4.4034014, z: 3.5100021}
-    m_Extent: {x: 43.5, y: 5, z: 3}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &2039532238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12237,6 +12246,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -12356,9 +12369,9 @@ Mesh:
       format: 0
       dimension: 2
     - stream: 0
-      offset: 0
+      offset: 48
       format: 0
-      dimension: 0
+      dimension: 2
     - stream: 0
       offset: 0
       format: 0
@@ -12391,8 +12404,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 1152
-    _typelessdata: 38b043c2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf38b04342b0ba18bfc84f1842b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c2b0ba18bf38b043c255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf38b0434255741641c84f184255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c255741641c84f1842b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bfc84f1842b0ba18bf7c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023fb0ba18bfc84f184255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d04055741641c84f1842557416417c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023f55741641c84f1842b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f1842b0ba18bf38b043c2b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c2b0ba18bfc84f1842557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f18425574164138b043c2557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c25574164138b043c2b0ba18bf7c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bfb0ba18bf38b043c2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf38b043c2557416417c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bf5574164138b043c255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c05574164138b043c255741641f051d040000000000000803f000000000000803f0000000000000000000080bf38b043c2f051d040c84f184255741641f051d040000000000000803f000000000000803f0000000000000000000080bfc84f1842f051d04038b043c2557416417c8f023f000000000000803f000000000000803f0000000000000000000080bf38b043c27c8f023fc84f1842557416417c8f023f000000000000803f000000000000803f0000000000000000000080bfc84f18427c8f023f38b043c2b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bf38b043427c8f023fc84f1842b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bfc84f18c27c8f023f38b043c2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf38b04342f051d040c84f1842b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfc84f18c2f051d040
+    m_DataSize: 1344
+    _typelessdata: 38b043c2b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bf38b04342b0ba18bf6fd8a33c0bd7a33cc84f1842b0ba18bff051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c2b0ba18bf1b467b3f0bd7a33c38b043c255741641f051d04000000000000000000000803f000080bf0000000000000000000080bf38b04342557416410bd7a33c79a7053ec84f184255741641f051d04000000000000000000000803f000080bf0000000000000000000080bfc84f18c25574164110467b3f79a7053ec84f1842b0ba18bff051d0400000803f000000000000000000000000000000000000803f000080bff051d040b0ba18bf1fd7a33c901d053fc84f1842b0ba18bf7c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023fb0ba18bf0bd7a33c5947e83ec84f184255741641f051d0400000803f000000000000000000000000000000000000803f000080bff051d0405574164177a7053e901d053fc84f1842557416417c8f023f0000803f000000000000000000000000000000000000803f000080bf7c8f023f5574164174a7053e5947e83ec84f1842b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f1842b0ba18bf6fd8a33c5a221a3e38b043c2b0ba18bf7c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c2b0ba18bf1b467b3f5a221a3ec84f1842557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bfc84f1842557416410bd7a33c79a7853e38b043c2557416417c8f023f0000000000000000000080bf0000803f0000000000000000000080bf38b043c25574164110467b3f79a7853e38b043c2b0ba18bf7c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bfb0ba18bf74a7053e483c0a3f38b043c2b0ba18bff051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0b0ba18bf77a7053e2b361b3f38b043c2557416417c8f023f000080bf00000000000000000000000000000000000080bf000080bf7c8f02bf557416410bd7a33c483c0a3f38b043c255741641f051d040000080bf00000000000000000000000000000000000080bf000080bff051d0c0557416411fd7a33c2b361b3f38b043c255741641f051d040000000000000803f000000000000803f0000000000000000000080bf38b043c2f051d04011467b3fb0d8b13ec84f184255741641f051d040000000000000803f000000000000803f0000000000000000000080bfc84f1842f051d0400bd7a33cb0d8b13e38b043c2557416417c8f023f000000000000803f000000000000803f0000000000000000000080bf38b043c27c8f023f1a467b3fe9e48f3ec84f1842557416417c8f023f000000000000803f000000000000803f0000000000000000000080bfc84f18427c8f023f23d8a33ce9e48f3e38b043c2b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bf38b043427c8f023f23d8a33c2116bc3ec84f1842b0ba18bf7c8f023f00000000000080bf00000000000080bf0000000000000000000080bfc84f18c27c8f023f1a467b3f2116bc3e38b043c2b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bf38b04342f051d0400bd7a33ce809de3ec84f1842b0ba18bff051d04000000000000080bf00000000000080bf0000000000000000000080bfc84f18c2f051d04011467b3fe809de3e
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -12453,7 +12466,7 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
+  m_MeshMetrics[1]: 8186.6357
   m_MeshOptimizationFlags: 1
   m_StreamData:
     serializedVersion: 2
@@ -12480,7 +12493,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2041169667
 Transform:
@@ -12637,6 +12650,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveText: {fileID: 841362648}
+--- !u!1 &2047683007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2047683009}
+  - component: {fileID: 2047683008}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2047683008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047683007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: a6560a915ef98420e9faacc1c7438823, type: 2}
+--- !u!4 &2047683009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047683007}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2049394376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 55a67f111b1a44ab1af5b998dfe73716,
@@ -12654,6 +12716,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
       propertyPath: m_Name
       value: PW_doughnut_pink (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
       propertyPath: m_LocalScale.x
@@ -12723,6 +12789,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
       propertyPath: m_Name
       value: PW_mochapot (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 14757843bf5574ff3a9ff763ff4cc30c, type: 3}
       propertyPath: m_LocalScale.x
@@ -12799,6 +12869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_cupcake_oreo
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3c1b6649db1be4bd2bf453b42c1a35ed, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3c1b6649db1be4bd2bf453b42c1a35ed, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -12867,6 +12941,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -12962,7 +13040,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &2139402993
 MeshCollider:
@@ -12985,7 +13063,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1898490626}
+  m_Mesh: {fileID: 587283102}
 --- !u!33 &2139402994
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -13308,6 +13386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PW_doughnut_pink (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5fbda09d5185a47febf22d3176f2aa76, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -13376,6 +13458,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_Name
       value: PW_cookie (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 18e651e9430dc49f8aba22d0b7b80602, type: 3}
       propertyPath: m_LocalScale.x
@@ -13643,6 +13729,16 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 3284278359401369582}
+    - target: {fileID: 4123972818454391103, guid: dc2cd4d7c805a0449b2784ca1683cef2,
+        type: 3}
+      propertyPath: m_Lens.FarClipPlane
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123972818454391103, guid: dc2cd4d7c805a0449b2784ca1683cef2,
+        type: 3}
+      propertyPath: m_Lens.NearClipPlane
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 5206115468762474501, guid: dc2cd4d7c805a0449b2784ca1683cef2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13693,19 +13789,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5302835519283768258, guid: dc2cd4d7c805a0449b2784ca1683cef2,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5608255246277647832, guid: dc2cd4d7c805a0449b2784ca1683cef2,
         type: 3}
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 7984575881956908585, guid: dc2cd4d7c805a0449b2784ca1683cef2,
+        type: 3}
+      propertyPath: far clip plane
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984575881956908585, guid: dc2cd4d7c805a0449b2784ca1683cef2,
+        type: 3}
+      propertyPath: near clip plane
+      value: -3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5608255246277647832, guid: dc2cd4d7c805a0449b2784ca1683cef2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 970715731}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc2cd4d7c805a0449b2784ca1683cef2, type: 3}
 --- !u!4 &3284278359401369582 stripped
 Transform:
@@ -13820,5 +13927,5 @@ SceneRoots:
   - {fileID: 1438306566476150929}
   - {fileID: 1625800482}
   - {fileID: 1791029139}
-  - {fileID: 1147363958}
   - {fileID: 719770115}
+  - {fileID: 2047683009}

@@ -18,7 +18,11 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         if (!canMove)
+        {
+            animator.SetBool("isMove", false);
             return;
+        }
+
 
         GetInput();
         animator.SetBool("isMove", isMoving);

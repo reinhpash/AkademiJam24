@@ -25,7 +25,7 @@ public class EnemyProjectile : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(UnityEngine.Collision collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
@@ -43,5 +43,4 @@ public class EnemyProjectile : MonoBehaviour
             Destroy(this);
         }
     }
-
 }
