@@ -18,7 +18,7 @@ public class EnemySpawner : MonoBehaviour
     private int enemiesSpawned = 0;
     private int waveEnemiesSpawned;
     public UnityEvent OnAnotherWaveStart;
-
+    public GameObject portal;
 
     private void Awake()
     {
@@ -51,6 +51,10 @@ public class EnemySpawner : MonoBehaviour
         if (currentWave >= 3)
         {
             Debug.Log("Waves finished");
+
+            Vector3 portalSpawnPosition = player.position + player.forward * 3;
+            Instantiate(portal, portalSpawnPosition, Quaternion.identity);
+
             this.enabled = false;
             return;
         }

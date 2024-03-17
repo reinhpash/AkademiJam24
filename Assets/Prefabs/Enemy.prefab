@@ -519,7 +519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 5066922553716313058}
-  tickRate: 1.5
+  tickRate: 2
   currentState: 0
   attackObject: {fileID: 1559553185289018763}
   attackDelay: 2
