@@ -20,17 +20,15 @@ public class BossAI : MonoBehaviour
     private BossStates currentState = BossStates.Stage01;
     public Animator animator;
 
-    private void Start()
-    {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-    }
-
     private void Update()
     {
         if(player != null)
             transform.LookAt(player);
+        else
+                player = GameObject.FindGameObjectWithTag("Player").transform;
         if (lastTick >= tickRates[(int)currentState])
         {
+            agent.SetDestination(player.position);
             UpdateState();
             PerformStateAction();
             lastTick = 0;
