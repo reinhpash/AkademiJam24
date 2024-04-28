@@ -4,7 +4,7 @@
     
 # Coffeman
 
-Goolge oyun ve uygulama akedemisi 2024 Gamejam'i için 48 saat içerisinde geliştirilmiş bir oyundur.
+Goolge oyun ve uygulama akademisi 2024 Gamejam'i için 48 saat içerisinde geliştirilmiş bir oyundur.
 
 Ekip Üyeleri:
 
